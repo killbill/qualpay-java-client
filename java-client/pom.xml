@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.kill-bill.billing.thirdparty</groupId>
     <artifactId>qualpay-java-client</artifactId>
     <packaging>jar</packaging>
     <name>qualpay-java-client</name>
-    <version>1.1.9-SNAPSHOT</version>
+    <version>1.1.9</version>
     <url>https://github.com/killbill/qualpay-java-client</url>
     <description>Swagger Java</description>
     <distributionManagement>
@@ -19,7 +18,8 @@
         <connection>scm:git:git@github.com:killbill/qualpay-java-client.git</connection>
         <developerConnection>scm:git:git@github.com:killbill/qualpay-java-client.git</developerConnection>
         <url>https://github.com/killbill/qualpay-java-client</url>
-    </scm>
+      <tag>qualpay-java-client-1.1.9</tag>
+  </scm>
 
     <licenses>
         <license>
