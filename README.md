@@ -11,5 +11,5 @@ Release:
 ```
 mvn release:clean
 mvn release:prepare
-mvn release:perform
+mvn release:perform # Ignore the md5 and sources jar upload failures
 ```
